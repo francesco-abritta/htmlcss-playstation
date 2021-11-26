@@ -22,17 +22,35 @@
 
 /* header */
 header{
-    height: 100px;
-    background-color: black;
+    background-color: white;
 }
 
+    .pre-nav{
+        background-color: black;
+    }
+
+    .pre-nav img{
+        height: 15px;
+    }
 
 
+    .logoplay{
+        height: 45px;
+    }
+
+    .drop{
+        height: 15px;
+        vertical-align: bottom;
+        margin-top: 5px;
+        margin-left: 5px;
+    }
+
+    
 
 
 /* jumbo */
 .jumbo{
-    margin-top: 100px;
+    margin-top: 88px;
     height: 800px;
     background-image: url("img/jumbo-bg.png");
     background-size: cover;
@@ -54,18 +72,20 @@ header{
         cursor: pointer;
     }
 
-    /* .immagini .bottom{
-        position: relative;
-        height: 100%;
+    .riquadro{
+        padding:2px;
+        border-radius: 20px;
     }
 
-    .immagini .bottom img{
-        position: absolute;
+    .blu{
+        border: 5px solid blue;
     }
 
-    .immagini .bottom:hover img {
-        bottom: 1%;
-    } */
+
+    
+
+
+    
 
     .accessori .hover img{
         opacity: 0.5;
@@ -75,6 +95,23 @@ header{
         opacity: 1;
     }
 
+    .link-console a{
+        text-decoration: none;
+        color: black;
+    }
+
+    @media screen and (min-width: 768px) {
+        .link-console{
+            display: flex;
+            justify-content:space-between;
+        }
+    }
+
+    @media screen and (min-width: 1400px) {
+        .social .container{
+            max-width: 70%;
+        }
+    }
     
 
 
@@ -98,6 +135,11 @@ header{
 
     .uscite img{
         border-radius: 20px;
+    }
+
+    .uscite a{
+        text-decoration: none;
+        color: white;
     }
 
 
@@ -129,36 +171,24 @@ header{
 
 
 
-    footer{
-        background-color: rgb(18, 18, 136);
-        color: white;
-    }
+/* footer */
+footer{
+    background-color: rgb(18, 18, 136);
+    color: white;
+}
 
-    .lista li{
-        list-style: none;
-    }
+.lista li{
+    list-style: none;
+}
 
-    .lista a{
-        text-decoration: none;
-        color: white;
-    }
-
-
-    .globe img{
-        height: 15px;
-    }
+.lista a{
+    text-decoration: none;
+    color: white;
+}
 
 
-    
-
-
-
-
-
-
-
-
-
-
+.globe img{
+    height: 15px;
+}
 
 
