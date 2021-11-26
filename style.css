@@ -13,6 +13,10 @@
     width: 50%;
 }
 
+.w35{
+    width: 35%;
+}
+
 
 
 
@@ -109,6 +113,43 @@ header{
         }
     }
 
+
+    .now{
+        background-color: rgb(18, 18, 88);
+        color: white;
+    }
+
+    @media screen and (max-width: 768px) {
+        .now .none img{
+            display: none;
+        }
+    }
+
+
+
+
+
+    footer{
+        background-color: rgb(18, 18, 136);
+        color: white;
+    }
+
+    .lista li{
+        list-style: none;
+    }
+
+    .lista a{
+        text-decoration: none;
+        color: white;
+    }
+
+
+    .globe img{
+        height: 15px;
+    }
+
+
+    
 
 
 
