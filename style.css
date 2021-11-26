@@ -5,6 +5,14 @@
 }
 
 
+.w100{
+    width: 100%;
+}
+
+.w50{
+    width: 50%;
+}
+
 
 
 
@@ -28,25 +36,78 @@ header{
     color: white;
 }
 
-.jumbo img, .console img{
-    width: 100%;
-}
-
 .jumbo .testo *{
     margin: 30px 0;
 }
 
 
 
+/* Console */
 
-.console img{
-    border-radius: 20px;
-}
+    
+    .immagini img{
+        border-radius: 20px;
+        cursor: pointer;
+    }
 
-.contorno{
-    border: 4px solid blue;
-    border-radius: 20px;
-}
+    /* .immagini .bottom{
+        position: relative;
+        height: 100%;
+    }
+
+    .immagini .bottom img{
+        position: absolute;
+    }
+
+    .immagini .bottom:hover img {
+        bottom: 1%;
+    } */
+
+    .accessori .hover img{
+        opacity: 0.5;
+    }
+
+    .accessori .hover:hover img{
+        opacity: 1;
+    }
+
+    
+
+
+    .avventura{
+        height: 800px;
+        background-image: url("img/it-takes-two-hero-banner-desktop.jpg");
+        background-size: cover;
+        background-position: center;
+        color: white;
+    }
+
+    .avventura .testo *{
+        margin: 30px 0;
+    }
+
+
+    .uscite{
+        color: white;
+        background-color: rgb(34, 33, 33);
+    }
+
+    .uscite img{
+        border-radius: 20px;
+    }
+
+
+
+
+    .plus{
+        background-color: grey;
+    }
+
+    @media screen and (max-width: 768px) {
+        .plus .none img{
+            display: none;
+        }
+    }
 
 
 
