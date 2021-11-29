@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+.lens{
+    height: 30px;
+}
+
 
 .w100{
     width: 100%;
@@ -13,17 +17,19 @@
     width: 50%;
 }
 
-.w35{
-    width: 35%;
+.w25{
+    width: 25%;
+}
+
+.w5{
+    width: 5%;
 }
 
 
 
 
 /* header */
-header{
-    background-color: white;
-}
+
 
     .pre-nav{
         background-color: black;
@@ -31,6 +37,10 @@ header{
 
     .pre-nav img{
         height: 15px;
+    }
+
+    .nav{
+        background-color: white;
     }
 
 
@@ -45,13 +55,168 @@ header{
         margin-left: 5px;
     }
 
+    .frecciahover:hover .drop{
+        transform: rotate(-180deg);
+    }
+
+    .contimg a, .contimg li{
+        display: inline-block;
+        padding: 10px;
+        text-decoration: none;
+        color: black;
+    }
+
+    .sub:hover{
+        text-decoration: underline;
+    }
+
+    .contimg p{
+        margin:0;
+        width: 110px;
+    }
+
+    .imgplay img{
+        height: 100px;
+        width: 100px;
+        margin: 0 auto;
+    }
+
+
+    .bordilente{
+        border: 1px solid black;
+    }
+
+    .large{
+        display: none;
+    }
+
+    @media screen and (min-width: 991px) {
+        .small{
+            display: none;
+        }
+
+        .large{
+            display: block;
+        }
+        
+    }
+
+    /* tasto */
+    .border_red{
+        border: 2px solid red;
+    }
+
+    .border_blue{
+        border: 2px solid blue;
+    }
+
+    .border_grey{
+        border: 2px solid rgb(54, 54, 54);
+    }
+
+    .border_white{
+        border: 2px solid white;
+    }
+
+    .border_special{
+        border: 2px solid rgb(142, 172, 202);
+    }
+
+    .bg_red{
+        background-color: red;
+    }
+
+    .bg_blu{
+        background-color: blue;
+    }
+
+    .bg_grey{
+        background-color: rgb(54, 54, 54);
+    }
+
+    .bg_special{
+        background-color: rgb(142, 172, 202);
+    }
+
+    .bg_white{
+        background-color: white;
+    }
+
+    .color_blu{
+        color: blue;
+    }
+
+    .color_black{
+        color: black;
+    }
+
+    .color_white{
+        color: white;
+    }
+
+    .bottone{
+        text-decoration: none;
+        padding: 8px;
+        border-radius: 50rem;
+        transition: box-shadow 0.2s linear;
+    }
+
+    .bottone:hover{
+        color: white;
+    }
+
+    .specialhover:hover{
+        color:black;
+    }
+
+    
+
+    .bottonebordonero:hover{
+        box-shadow: inset 0px 0px 0px 3px black;
+    }
+
+    .bottonebordobianco:hover{
+        box-shadow: inset 0px 0px 0px 3px white;
+    }
+
+    .bottonebordogrigio:hover{
+        box-shadow: inset 0px 0px 0px 3px grey;
+    }
+    /* tasto */
+    
+
+    .imgplay:hover{
+        box-shadow: 0px 0px 14px 8px #878787;
+    }
+
+    @media screen and (min-width: 991px) {
+
+        .item_center{
+            display: flex;
+            justify-content: center;
+        }
+
+        .contimg ul{
+            display: flex;
+            justify-content: center
+        }
+        
+        .topshow, .bottomshow{
+            display: none;
+        }
+
+        
+    } 
+
+    
+
     
 
 
 /* jumbo */
 .jumbo{
     margin-top: 88px;
-    height: 800px;
+    min-height: 800px;
     background-image: url("img/jumbo-bg.png");
     background-size: cover;
     background-position: center;
@@ -79,6 +244,14 @@ header{
 
     .blu{
         border: 5px solid blue;
+    }
+
+    .bottom div{
+        transition: transform 0.2s linear;
+    }
+
+    .bottom:hover div{
+        transform: translate(0,-15px);
     }
 
 
