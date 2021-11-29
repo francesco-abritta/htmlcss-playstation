@@ -154,6 +154,10 @@
         color: white;
     }
 
+    .color_grey{
+        color: grey;
+    }
+
     .bottone{
         text-decoration: none;
         padding: 8px;
@@ -169,18 +173,16 @@
         color:black;
     }
 
-    
-
     .bottonebordonero:hover{
-        box-shadow: inset 0px 0px 0px 3px black;
+        box-shadow: inset 0px 0px 0px 2px black;
     }
 
     .bottonebordobianco:hover{
-        box-shadow: inset 0px 0px 0px 3px white;
+        box-shadow: inset 0px 0px 0px 2px white;
     }
 
     .bottonebordogrigio:hover{
-        box-shadow: inset 0px 0px 0px 3px grey;
+        box-shadow: inset 0px 0px 0px 2px grey;
     }
     /* tasto */
     
